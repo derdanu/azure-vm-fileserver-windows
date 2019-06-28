@@ -35,7 +35,7 @@
     "subnetName": "Subnet",
     "subnetPrefix": "10.0.0.0/24",
     "publicIPAddressName": "myPublicIP",
-    "vmName": "SimpleFileserver",
+    "vmName": "SimpleFilesrv",
     "virtualNetworkName": "MyVNET",
     "windowsOSVersion": "2016-Datacenter",
     "subnetRef": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnetName'))]"
